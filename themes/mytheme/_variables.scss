@@ -1,20 +1,20 @@
-$primaryColor: #2196F3;
-$primaryDarkColor: #1E88E5;
-$primaryDarkerColor: #1976D2;
-$primaryTextColor: #ffffff;
+$primaryColor: var(--color-secondary-400, #199FE3);
+$primaryDarkColor: var(--color-secondary-500, #1791D2);
+$primaryDarkerColor: var(--color-secondary-600, #1373AB);
+$primaryTextColor: var(--color-neutral-0, #FFFFFF);
 
 $colors: (
-    "blue": #2196F3,
-    "green": #4caf50,
-    "yellow": #FBC02D,
-    "cyan": #00BCD4,
+    "blue": var(--color-primary-500, #263072),
+    "green": var(--color-success-400, #00B107),
+    "yellow": var(--color-warning-300, #ECC234),
+    "cyan": var(--color-secondary-200, #C0EBFC),
     "pink": #E91E63,
     "indigo": #3F51B5,
     "teal": #009688,
-    "orange": #F57C00,
+    "orange": var(--color-warning-400, #EBAF16),
     "bluegray": #607D8B,
     "purple": #9C27B0,
-    "red": #FF4032,
+    "red": var(--color-error-400, #FF0000),
     "primary": $primaryColor
 );
 
@@ -32,17 +32,17 @@ $colors: (
 @import './variables/chip';
 
 :root {
-    font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    --font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: Montserrat, sans-serif;
+    --font-family: Montserrat, sans-serif;
     --surface-a:#ffffff;
     --surface-b:#f8f9fa;
     --surface-c:#e9ecef;
     --surface-d:#dee2e6;
     --surface-e:#ffffff;
     --surface-f:#ffffff;
-    --text-color:#495057;
-    --text-color-secondary:#6c757d;
-    --primary-color:#2196F3;
+    --text-color: var(--color-neutral-700, #777777);
+    --text-color-secondary: var(--color-neutral-600, #A4A4A4);
+    --primary-color: var(--color-secondary-400, #199FE3);
     --primary-color-text:#ffffff;
     --surface-0: #ffffff;
     --surface-50: #FAFAFA;
