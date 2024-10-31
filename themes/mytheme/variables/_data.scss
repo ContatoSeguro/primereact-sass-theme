@@ -16,7 +16,7 @@ $paginatorBorderWidth: 0;
 
 /// Padding of a paginator
 /// @group data
-$paginatorPadding: .5rem 1rem;
+$paginatorPadding: 0.7rem 1.4rem;
 
 /// Width of a paginator element
 /// @group data
@@ -56,7 +56,7 @@ $paginatorElementBorderRadius: $borderRadius;
 
 /// Margin of a paginator element
 /// @group data
-$paginatorElementMargin: .143rem;
+$paginatorElementMargin: 0.2002rem;
 
 /// Padding of a paginator element
 /// @group data
@@ -82,13 +82,13 @@ $tableHeaderTextColor: $textColor;
 /// @group data
 $tableHeaderFontWeight: 600;
 
-/// Padding of a table header, must be defined with a shorthand for vertical and horizontal values e.g. ".5rem .5rem"
+/// Padding of a table header, must be defined with a shorthand for vertical and horizontal values e.g. "0.7rem 0.7rem"
 /// @group data
-$tableHeaderPadding: 1rem 1rem;
+$tableHeaderPadding: 1.4rem 1.4rem;
 
-/// Padding of a table header cell, must be defined with a shorthand for vertical and horizontal values e.g. ".5rem .5rem"
+/// Padding of a table header cell, must be defined with a shorthand for vertical and horizontal values e.g. "0.7rem 0.7rem"
 /// @group data
-$tableHeaderCellPadding: 1rem 1rem;
+$tableHeaderCellPadding: 1.4rem 1.4rem;
 
 /// Background of a table header cell
 /// @group data
@@ -144,7 +144,7 @@ $tableHeaderCellHighlightTextHoverColor:$primaryColor;
 
 /// Size of a multiple column sorting order indicator
 /// @group data
-$tableSortableColumnBadgeSize: 1.143rem;
+$tableSortableColumnBadgeSize: 1.6002rem;
 
 /// Background of a table body row
 /// @group data
@@ -174,13 +174,13 @@ $tableBodyCellBorder: 1px solid rgba(0,0,0,0.08);
 /// @group data
 $tableBodyCellBorderWidth: 0 0 1px 0;
 
-/// Padding for a cell of a table toby row, must be defined with a shorthand for vertical and horizontal values e.g. ".5rem .5rem"
+/// Padding for a cell of a table toby row, must be defined with a shorthand for vertical and horizontal values e.g. "0.7rem 0.7rem"
 /// @group data
-$tableBodyCellPadding: 1rem 1rem;
+$tableBodyCellPadding: 1.4rem 1.4rem;
 
-/// Padding of a table footer cell, must be defined with a shorthand for vertical and horizontal values e.g. ".5rem .5rem"
+/// Padding of a table footer cell, must be defined with a shorthand for vertical and horizontal values e.g. "0.7rem 0.7rem"
 /// @group data
-$tableFooterCellPadding: 1rem 1rem;
+$tableFooterCellPadding: 1.4rem 1.4rem;
 
 /// Background of a table footer cell
 /// @group data
@@ -233,9 +233,9 @@ $tableFooterTextColor: $textColor;
 /// @group data
 $tableFooterFontWeight: 600;
 
-/// Padding of a table footer, must be defined with a shorthand for vertical and horizontal values e.g. ".5rem .5rem"
+/// Padding of a table footer, must be defined with a shorthand for vertical and horizontal values e.g. "0.7rem 0.7rem"
 /// @group data
-$tableFooterPadding: 1rem 1rem;
+$tableFooterPadding: 1.4rem 1.4rem;
 
 /// Content alignment of a table cell
 /// @group data
@@ -291,19 +291,19 @@ $dataScrollerListItemBorderWidth: 0 0 1px 0;
 
 /// Padding of a tree
 /// @group data
-$treeContainerPadding: 0.286rem;
+$treeContainerPadding: 0.4004rem;
 
 /// Padding of a tree node
 /// @group data
-$treeNodePadding: 0.143rem;
+$treeNodePadding: 0.2002rem;
 
 /// Padding of a tree node content consists of toggler, icon and label
 /// @group data
-$treeNodeContentPadding: .5rem;
+$treeNodeContentPadding: 0.7rem;
 
 /// Padding of a tree node children container
 /// @group data
-$treeNodeChildrenPadding: 0 0 0 1rem;
+$treeNodeChildrenPadding: 0 0 0 1.4rem;
 
 /// Color of a treenode data icon, $dataActionIconColor for the toggler element
 /// @group data
@@ -311,19 +311,19 @@ $treeNodeIconColor: $textSecondaryColor;
 
 /// Padding of a vertical timeline content element
 /// @group data
-$timelineVerticalEventContentPadding:0 1rem;
+$timelineVerticalEventContentPadding:0 1.4rem;
 
 /// Padding of a horizontal timeline content element
 /// @group data
-$timelineHorizontalEventContentPadding:1rem 0;
+$timelineHorizontalEventContentPadding:1.4rem 0;
 
 /// Width of a timeline marker
 /// @group data
-$timelineEventMarkerWidth:1rem;
+$timelineEventMarkerWidth:1.4rem;
 
 /// Height of a timeline marker
 /// @group data
-$timelineEventMarkerHeight:1rem;
+$timelineEventMarkerHeight:1.4rem;
 
 /// Border radius of a timeline marker
 /// @group data

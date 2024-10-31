@@ -1,10 +1,10 @@
 /// Margin of a message
 /// @group message
-$messageMargin: 1rem 0;
+$messageMargin: 1.4rem 0;
 
 /// Padding of a message
 /// @group message
-$messagePadding: 1rem 1.5rem;
+$messagePadding: 1.4rem 2.1rem;
 
 /// Border width of a message
 /// @group message
@@ -12,11 +12,11 @@ $messageBorderWidth: 0 0 0 4px;
 
 /// Font size of a message icon
 /// @group message
-$messageIconFontSize: 1.5rem;
+$messageIconFontSize: 2.1rem;
 
 /// Font size of a message text
 /// @group message
-$messageTextFontSize: 1rem;
+$messageTextFontSize: 1.4rem;
 
 /// Font weight of a message text
 /// @group message
@@ -32,11 +32,11 @@ $inlineMessageMargin: 0;
 
 /// Font size of an inline message icon
 /// @group message
-$inlineMessageIconFontSize: 1rem;
+$inlineMessageIconFontSize: 1.4rem;
 
 /// Padding of an inline message text
 /// @group message
-$inlineMessageTextFontSize: 1rem;
+$inlineMessageTextFontSize: 1.4rem;
 
 /// Border width of an inline message text
 /// @group message
@@ -44,19 +44,19 @@ $inlineMessageBorderWidth: 1px;
 
 /// Font size of a toast message icon
 /// @group message
-$toastIconFontSize: 2rem;
+$toastIconFontSize: 2.8rem;
 
 /// Margin of a toast message text
 /// @group message
-$toastMessageTextMargin: 0 0 0 1rem;
+$toastMessageTextMargin: 0 0 0 1.4rem;
 
 /// Margin of a toast message
 /// @group message
-$toastMargin: 0 0 1rem 0;
+$toastMargin: 0 0 1.4rem 0;
 
 /// Padding of a toast message
 /// @group message
-$toastPadding: 1rem;
+$toastPadding: 1.4rem;
 
 /// Border width of a toast message
 /// @group message

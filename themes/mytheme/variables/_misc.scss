@@ -20,11 +20,11 @@ $badgeTextColor: $primaryTextColor;
 
 /// Minimum width of a badge
 /// @group misc
-$badgeMinWidth: 1.5rem;
+$badgeMinWidth: 2.1rem;
 
 /// Height of a badge
 /// @group misc
-$badgeHeight: 1.5rem;
+$badgeHeight: 2.1rem;
 
 /// Font weight of a badge
 /// @group misc
@@ -32,15 +32,15 @@ $badgeFontWeight: 700;
 
 /// Font size of a badge
 /// @group misc
-$badgeFontSize: .75rem;
+$badgeFontSize: 1.05rem;
 
 /// Padding of a badge
 /// @group misc
-$tagPadding: .25rem .4rem;
+$tagPadding: 0.35rem 0.56rem;
 
 /// Height of a progress bar
 /// @group misc
-$progressBarHeight: 1.5rem;
+$progressBarHeight: 2.1rem;
 
 /// Border of a progress bar
 /// @group misc
@@ -87,11 +87,11 @@ $scrollTopHoverBg:rgba(0,0,0,0.8);
 
 /// Width of a scrollTop
 /// @group misc
-$scrollTopWidth:3rem;
+$scrollTopWidth:4.2rem;
 
 /// Height of a scrollTop
 /// @group misc
-$scrollTopHeight:3rem;
+$scrollTopHeight:4.2rem;
 
 /// Border radius of a scrollTop
 /// @group misc
@@ -99,7 +99,7 @@ $scrollTopBorderRadius:50%;
 
 /// Font size of a scrollTop
 /// @group misc
-$scrollTopFontSize:1.5rem;
+$scrollTopFontSize:2.1rem;
 
 /// Text color of a scrollTop
 /// @group misc

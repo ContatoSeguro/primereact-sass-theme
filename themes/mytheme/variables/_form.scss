@@ -1,6 +1,6 @@
-/// Padding of an input field, must be defined with a shorthand for vertical and horizontal values e.g. ".5rem .5rem"
+/// Padding of an input field, must be defined with a shorthand for vertical and horizontal values e.g. "0.7rem 0.7rem"
 /// @group form
-$inputPadding: 0.5rem 0.5rem;
+$inputPadding: 0.7rem 0.7rem;
 
 /// Background of an input field
 /// @group form
@@ -8,7 +8,7 @@ $inputBg: #ffffff;
 
 /// Font size of an input field
 /// @group form
-$inputTextFontSize: 1rem;
+$inputTextFontSize: 1.4rem;
 
 /// Text color of an input field
 /// @group form
@@ -60,7 +60,7 @@ $inputGroupTextColor: $textSecondaryColor;
 
 /// Minimum width of an input group addon
 /// @group form
-$inputGroupAddOnMinWidth: 2.357rem;
+$inputGroupAddOnMinWidth: 3.2998rem;
 
 /// Background of an input list such as dropdown, listbox, multiselect
 /// @group form
@@ -76,11 +76,11 @@ $inputListBorder: $inputBorder;
 
 /// Padding of an input list
 /// @group form
-$inputListPadding: 0.5rem 0;
+$inputListPadding: 0.7rem 0;
 
 /// Padding for an individual itrem of an input list
 /// @group form
-$inputListItemPadding: 0.5rem 1rem;
+$inputListItemPadding: 0.7rem 1.4rem;
 
 /// Background for an individual itrem of an input list
 /// @group form
@@ -120,11 +120,11 @@ $inputListItemMargin: 0;
 
 /// Box shadow for an individual itrem of an input list in focused state
 /// @group form
-$inputListItemFocusShadow: inset 0 0 0 0.15rem $focusOutlineColor;
+$inputListItemFocusShadow: inset 0 0 0 0.21rem $focusOutlineColor;
 
 /// Padding for a header of an input list
 /// @group form
-$inputListHeaderPadding: 0.5rem 1rem;
+$inputListHeaderPadding: 0.7rem 1.4rem;
 
 /// Margin for a header of an input list
 /// @group form
@@ -240,11 +240,11 @@ $radiobuttonActiveHoverBorderColor: $primaryDarkerColor;
 
 /// Width of a color picker preview element
 /// @group form
-$colorPickerPreviewWidth: 2rem;
+$colorPickerPreviewWidth: 2.8rem;
 
 /// Height of a color picker preview element
 /// @group form
-$colorPickerPreviewHeight: 2rem;
+$colorPickerPreviewHeight: 2.8rem;
 
 /// Background of a color picker
 /// @group form
@@ -260,7 +260,7 @@ $colorPickerHandleColor: #ffffff;
 
 /// Font size of a rating icon
 /// @group form
-$ratingIconFontSize: 1.143rem;
+$ratingIconFontSize: 1.6002rem;
 
 /// Icon color for the cancel icon of a rating
 /// @group form
@@ -292,19 +292,19 @@ $sliderBorder: 0 none;
 
 /// Height of a horizontal slider
 /// @group form
-$sliderHorizontalHeight: 0.286rem;
+$sliderHorizontalHeight: 0.4004rem;
 
 /// Width of a vertical slider
 /// @group form
-$sliderVerticalWidth: 0.286rem;
+$sliderVerticalWidth: 0.4004rem;
 
 /// Width of a slider handle
 /// @group form
-$sliderHandleWidth: 1.143rem;
+$sliderHandleWidth: 1.6002rem;
 
 /// Height of a slider handle
 /// @group form
-$sliderHandleHeight: 1.143rem;
+$sliderHandleHeight: 1.6002rem;
 
 /// Background of a slider handle
 /// @group form
@@ -332,11 +332,11 @@ $sliderRangeBg: $primaryColor;
 
 /// Margin of a calendar table
 /// @group form
-$calendarTableMargin: 0.5rem 0;
+$calendarTableMargin: 0.7rem 0;
 
 /// Margin of a calendar
 /// @group form
-$calendarPadding: 0.5rem;
+$calendarPadding: 0.7rem;
 
 /// Background of a calendar
 /// @group form
@@ -360,7 +360,7 @@ $calendarOverlayBorder: $inputOverlayBorder;
 
 /// Padding of a calendar header
 /// @group form
-$calendarHeaderPadding: 0.5rem;
+$calendarHeaderPadding: 0.7rem;
 
 /// Text color of current month and year text in hover state
 /// @group form
@@ -388,19 +388,19 @@ $calendarHeaderFontWeight: 600;
 
 /// Padding of a calendar weekday cell
 /// @group form
-$calendarHeaderCellPadding: 0.5rem;
+$calendarHeaderCellPadding: 0.7rem;
 
 /// Padding of a calendar date cell
 /// @group form
-$calendarCellDatePadding: 0.5rem;
+$calendarCellDatePadding: 0.7rem;
 
 /// Width of a calendar date cell
 /// @group form
-$calendarCellDateWidth: 2.5rem;
+$calendarCellDateWidth: 3.5rem;
 
 /// Height of a calendar date cell
 /// @group form
-$calendarCellDateHeight: 2.5rem;
+$calendarCellDateHeight: 3.5rem;
 
 /// Border radius of a calendar date cell
 /// @group form
@@ -428,19 +428,19 @@ $calendarCellDateTodayTextColor: $textColor;
 
 /// Padding of the calendar button bar
 /// @group form
-$calendarButtonBarPadding: 1rem 0;
+$calendarButtonBarPadding: 1.4rem 0;
 
 /// Padding of a time picker container of a calendar
 /// @group form
-$calendarTimePickerPadding: 0.5rem;
+$calendarTimePickerPadding: 0.7rem;
 
 /// Padding of a time picker element of a calendar
 /// @group form
-$calendarTimePickerElementPadding: 0 0.429rem;
+$calendarTimePickerElementPadding: 0 0.6006rem;
 
 /// Font size of a time picker element of a calendar
 /// @group form
-$calendarTimePickerTimeFontSize: 1.286rem;
+$calendarTimePickerTimeFontSize: 1.8004rem;
 
 /// Breakpoint of calendar to apply styles for small screens like phones
 /// @group form
@@ -452,11 +452,11 @@ $calendarCellDatePaddingSM: 0;
 
 /// Width of an inputswitch
 /// @group form
-$inputSwitchWidth: 3rem;
+$inputSwitchWidth: 4.2rem;
 
 /// Height of an inputswitch
 /// @group form
-$inputSwitchHeight: 1.75rem;
+$inputSwitchHeight: 2.45rem;
 
 /// Border radius of an inputswitch
 /// @group form
@@ -464,11 +464,11 @@ $inputSwitchBorderRadius: 30px;
 
 /// Width of an inputswitch handle
 /// @group form
-$inputSwitchHandleWidth: 1.25rem;
+$inputSwitchHandleWidth: 1.75rem;
 
 /// Height of an inputswitch handle
 /// @group form
-$inputSwitchHandleHeight: 1.25rem;
+$inputSwitchHandleHeight: 1.75rem;
 
 /// Border radius of an inputswitch handle
 /// @group form
@@ -476,7 +476,7 @@ $inputSwitchHandleBorderRadius: 50%;
 
 /// Padding of an inputswitch slider
 /// @group form
-$inputSwitchSliderPadding: 0.25rem;
+$inputSwitchSliderPadding: 0.35rem;
 
 /// Background color of an inputswitch slider when unselected
 /// @group form
@@ -504,11 +504,11 @@ $inputSwitchHandleOnBg: #ffffff;
 
 /// Height for the progress bar of a fileupload
 /// @group form
-$fileUploadProgressBarHeight: 0.25rem;
+$fileUploadProgressBarHeight: 0.35rem;
 
 /// Padding of the fileupload content section
 /// @group form
-$fileUploadContentPadding: 2rem 1rem;
+$fileUploadContentPadding: 2.8rem 1.4rem;
 
 /// Background of an editor toolbar
 /// @group form
@@ -520,7 +520,7 @@ $editorToolbarBorder: 1px solid #dee2e6;
 
 /// Padding of an editor toolbar
 /// @group form
-$editorToolbarPadding: 1rem;
+$editorToolbarPadding: 1.4rem;
 
 /// Icon color of an editor toolbar
 /// @group form

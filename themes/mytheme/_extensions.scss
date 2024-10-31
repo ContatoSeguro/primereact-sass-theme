@@ -1,1 +1,9 @@
 /* Customizations to the designer theme should be defined here */
+
+html {
+    /*
+        It's not a good practice, considering accessibility,
+        but with this, we can use 1rem as if it were 10px.
+    */
+    font-size: 62.5%;
+}

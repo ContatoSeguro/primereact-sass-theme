@@ -20,11 +20,11 @@ $panelHeaderFontWeight: 600;
 
 /// Padding of a panel header
 /// @group panel
-$panelHeaderPadding: 1rem;
+$panelHeaderPadding: 1.4rem;
 
 /// Font weight of a toggleable panel header
 /// @group panel
-$panelToggleableHeaderPadding: .5rem 1rem;
+$panelToggleableHeaderPadding: 0.7rem 1.4rem;
 
 
 /// Border color for the content section of a panel
@@ -49,7 +49,7 @@ $panelContentTextColor: $textColor;
 
 /// Padding for the content section of a panel
 /// @group panel
-$panelContentPadding: 1rem;
+$panelContentPadding: 1.4rem;
 
 /// Border for the footer section of a panel
 /// @group panel
@@ -65,7 +65,7 @@ $panelFooterTextColor: $textColor;
 
 /// Padding for the footer section of a panel
 /// @group panel
-$panelFooterPadding: 0.5rem 1rem;
+$panelFooterPadding: 0.7rem 1.4rem;
 
 /// Spacing between to accordion panels
 /// @group panel
@@ -253,11 +253,11 @@ $scrollPanelTrackBg: #f8f9fa;
 
 /// Padding of a card body
 /// @group panel
-$cardBodyPadding: 1rem;
+$cardBodyPadding: 1.4rem;
 
 /// Font size of a card title
 /// @group panel
-$cardTitleFontSize: 1.5rem;
+$cardTitleFontSize: 2.1rem;
 
 /// Font weight of a card title
 /// @group panel
@@ -273,11 +273,11 @@ $cardSubTitleColor: $textSecondaryColor;
 
 /// Padding of a card content
 /// @group panel
-$cardContentPadding: 1rem 0;
+$cardContentPadding: 1.4rem 0;
 
 /// Padding of a card footer
 /// @group panel
-$cardFooterPadding: 1rem 0 0 0;
+$cardFooterPadding: 1.4rem 0 0 0;
 
 /// Box shadow of a card
 /// @group panel
@@ -285,19 +285,19 @@ $cardShadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 
 
 /// Margin of divider in horizontal layout
 /// @group panel
-$dividerHorizontalMargin:1rem 0;
+$dividerHorizontalMargin:1.4rem 0;
 
 /// Padding of divider in horizontal layout
 /// @group panel
-$dividerHorizontalPadding:0 1rem;
+$dividerHorizontalPadding:0 1.4rem;
 
 /// Margin of divider in vertical layout
 /// @group panel
-$dividerVerticalMargin:0 1rem;
+$dividerVerticalMargin:0 1.4rem;
 
 /// Padding of divider in vertical layout
 /// @group panel
-$dividerVerticalPadding:1rem 0;
+$dividerVerticalPadding:1.4rem 0;
 
 /// Border width of the divider
 /// @group panel

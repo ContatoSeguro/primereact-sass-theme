@@ -1,14 +1,14 @@
-/// Padding of a button, must be defined with a shorthand for vertical and horizontal values e.g. ".5rem .5rem"
+/// Padding of a button, must be defined with a shorthand for vertical and horizontal values e.g. "0.7rem 0.7rem"
 /// @group button
-$buttonPadding: .5rem 1rem;
+$buttonPadding: 0.7rem 1.4rem;
 
 /// Width of a button having an icon with no label
 /// @group button
-$buttonIconOnlyWidth: 2.357rem;
+$buttonIconOnlyWidth: 3.2998rem;
 
 /// Padding of a button having an icon with no label
 /// @group button
-$buttonIconOnlyPadding: .5rem 0;
+$buttonIconOnlyPadding: 0.7rem 0;
 
 /// Background of a button
 /// @group button
@@ -52,7 +52,7 @@ $raisedButtonShadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0
 
 /// Border radius of a rounded button
 /// @group button
-$roundedButtonBorderRadius: 2rem;
+$roundedButtonBorderRadius: 2.8rem;
 
 /// Alpha level of a text button background in hover state
 /// @group button
@@ -116,7 +116,7 @@ $secondaryButtonActiveBorderColor: #455A64;
 
 /// Box shadow of a secondary button in focused state
 /// @group button
-$secondaryButtonFocusShadow: 0 0 0 0.2rem #B0BEC5;
+$secondaryButtonFocusShadow: 0 0 0 0.28rem #B0BEC5;
 
 /// Background of an info button
 /// @group button
@@ -156,7 +156,7 @@ $infoButtonActiveBorderColor: #0288D1;
 
 /// Box shadow of an info button in focused state
 /// @group button
-$infoButtonFocusShadow: 0 0 0 0.2rem lighten($infoButtonBg, 35%);
+$infoButtonFocusShadow: 0 0 0 0.28rem lighten($infoButtonBg, 35%);
 
 /// Background of a success button
 /// @group button
@@ -196,7 +196,7 @@ $successButtonActiveBorderColor: #388E3C;
 
 /// Box shadow of a success button in focused state
 /// @group button
-$successButtonFocusShadow: 0 0 0 0.2rem lighten($successButtonBg, 35%);
+$successButtonFocusShadow: 0 0 0 0.28rem lighten($successButtonBg, 35%);
 
 /// Background of a warning button
 /// @group button
@@ -236,7 +236,7 @@ $warningButtonActiveBorderColor: #FFA000;
 
 /// Box shadow of a warning button in focused state
 /// @group button
-$warningButtonFocusShadow: 0 0 0 0.2rem lighten($warningButtonBg, 35%);
+$warningButtonFocusShadow: 0 0 0 0.28rem lighten($warningButtonBg, 35%);
 
 /// Background of a help button
 /// @group button
@@ -276,7 +276,7 @@ $helpButtonActiveBorderColor:#7B1FA2;
 
 /// Box shadow of a help button in focused state
 /// @group button
-$helpButtonFocusShadow:0 0 0 0.2rem #CE93D8;
+$helpButtonFocusShadow:0 0 0 0.28rem #CE93D8;
 
 /// Background of a danger button
 /// @group button
@@ -316,7 +316,7 @@ $dangerButtonActiveBorderColor: #d32f2f;
 
 /// Box shadow of a danger button in focused state
 /// @group button
-$dangerButtonFocusShadow: 0 0 0 0.2rem lighten($dangerButtonBg, 35%);
+$dangerButtonFocusShadow: 0 0 0 0.28rem lighten($dangerButtonBg, 35%);
 
 /// Text color of a link button
 /// @group button
@@ -332,7 +332,7 @@ $linkButtonTextHoverDecoration:underline;
 
 /// Box shadow of a link button in focused state
 /// @group button
-$linkButtonFocusShadow: 0 0 0 0.2rem $focusOutlineColor;
+$linkButtonFocusShadow: 0 0 0 0.28rem $focusOutlineColor;
 
 /// Background of a toggle button
 /// @group button
@@ -400,23 +400,23 @@ $toggleButtonIconActiveHoverColor: $primaryTextColor;
 
 /// Width of a floating action button on speed dial
 /// @group button
-$speedDialButtonWidth: 4rem;
+$speedDialButtonWidth: 5.6rem;
 
 /// Height of a floating action button on speed dial
 /// @group button
-$speedDialButtonHeight: 4rem;
+$speedDialButtonHeight: 5.6rem;
 
 /// Font Size of a floating action button on speed dial
 /// @group button
-$speedDialButtonIconFontSize: 1.3rem;
+$speedDialButtonIconFontSize: 1.82rem;
 
 /// Width of any action button on speed dial
 /// @group button
-$speedDialActionWidth: 3rem;
+$speedDialActionWidth: 4.2rem;
 
 /// Height of any action button on speed dial
 /// @group button
-$speedDialActionHeight: 3rem;
+$speedDialActionHeight: 4.2rem;
 
 /// Background color of any action button on speed dial 
 /// @group button
